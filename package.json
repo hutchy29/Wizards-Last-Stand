@@ -1,0 +1,19 @@
+{
+  "name": "wizards-last-stand",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mobile landscape pixel-art survivor / bullet-heaven game. Single-file HTML5 canvas.",
+  "scripts": {
+    "serve": "python3 -m http.server 8080",
+    "test": "for f in tests/t.js tests/t[2-9].js tests/ta.js tests/tb.js tests/tc.js tests/td.js tests/te.js tests/tf.js; do echo \"== $f\"; node $f || exit 1; done"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  },
+  "dependencies": {
+    "expo": "^58.0.21",
+    "react-native": "^0.88.1",
+    "react-native-web": "^0.21.4",
+    "react": "19.3.0"
+  }
+}
